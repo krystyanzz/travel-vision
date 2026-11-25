@@ -1,0 +1,13 @@
+{
+  "_comment": "Rotas e aeroportos monitorados pelos robôs. Edite e o agendador usa na próxima execução.",
+  "airports": ["VIX", "FLN", "CNF"],
+  "routes": [
+    { "origin": "GRU", "destination": "LIS" },
+    { "origin": "GRU", "destination": "MIA" },
+    { "origin": "GRU", "destination": "SCL" },
+    { "origin": "VIX", "destination": "GRU" },
+    { "origin": "GIG", "destination": "MCO" }
+  ],
+  "monthsAhead": 3,
+  "currencies": ["USD", "EUR"]
+}
